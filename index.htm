@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon"   href="img/logo.png" type="image/png" />
+    <!--Framework Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Estilos personalizados-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/b403aefe88.js" crossorigin="anonymous"></script>
+    <title>EE2020</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" >
+        <div class="container">
+            <a href="#start" class="navbar-brand principal-title-navbar"><span class="text-primary">EE</span>2020</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-labelledby="Menu de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto my-2 ">
+                    <li class="nav-item mx-2"><a href="#start" data-scroll class="nav-link">INICIO</a></li>
+                    <li class="nav-item mx-2"><a href="#about" data-scroll class="nav-link">EXPO ESCOM</a></li>
+                    <li class="nav-item mx-2"><a href="#programacion" data-scroll class="nav-link">PROGRAMA</a></li>
+                    <li class="nav-item mx-2"><a href="#experience" data-scroll class="nav-link">EXPERIENCIAS</a></li>
+                    <li class="nav-item mx-2"><a href="#galery" data-scroll class="nav-link">GALERIA</a></li>
+                    <li class="nav-item mx-2"><a href="#location" data-scroll class="nav-link">UBICACIÓN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Inicio-->
+    <div class="home" id="start">
+        <div class="text">
+            <h1>Bienvenido a Expo <span class="text-primary">ESCOM</span></h1>
+            <h4>Una exposición llena de proyectos interesantes</h4>
+            <a href="#about" class="btn btn-info btn-lg">Conozca Más</a>
+        </div>
+    </div>
+
+    <!--About-->
+    <section id="about" class="about">
+        <div class="container py-4">
+            <div class="row py-4">
+                <div class="col text-center">
+                    <h1><i class="fa fa-code" aria-hidden="true"></i> Expo <span class="text-primary">ESCOM</span></h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6  pt-4">
+                    <h1>¿Qué es?</h1>
+                    <p class="text-justify text-about">De entre las variadas celebraciones que se suceden a lo largo del año académico, algunas representan para nosotros momentos especiales en los cuales revivimos antigüas emociones y nos trasladamos así, a escenarios y tiempos ya vividos. Sin embargo, en cada uno de esos momentos por debajo de sus semejanzas hay siempre giros sutiles que los hacen singulares e irrepetibles. Así ocurre todos los años al dar comienzo las exposiciones de los alumnos de la <span class="font-weight-bold">Escuela Superior de Cómputo</span>; en estas ocasiones observamos el proceso de formación de los jóvenes ingenieros y comprobamos los pasos seguros dados en su formación, pero al mismo tiempo asistimos a una fiesta de la afirmación del temple individual al ver en sus proyectos, aquí expuestos, la búsqueda y consolidación de su propio estilo.</p>
+                </div>
+                <div class="col-12 col-md-6 pt-4">
+                    <img class="img-fluid float-left" src="img/escom.jpg" alt="">
+                    <p class="text-center"><strong>Foto de la Escuela Superior de Cómputo</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Programación-->
+    <section id="programacion" class="programacion">
+        <div class="container py-4">
+           <div class="row py-4">
+                <div class="col py-4">
+                    <h1 class="text-center "><i class="fa fa-calendar" aria-hidden="true"></i> Programa</h1>
+                    <br>
+                    <p>Día en la que se llevará acabo la expo: 1 de Junio del 2020</p>
+                    <div class="py-4" id="acordeon">
+                    <!--CARD #1-->
+                    <div class="card">
+                        <div class="card-header bg-light" id="heading1">
+                            <h5 class="mb-0">
+                                <button class="btn" active data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Expo ESCOM 2020
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#acordeon">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Inauguración</h4>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Auditorio ESCOM</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-unlock fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Premiación y Clausura</h4>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Auditorio ESCOM</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-lock fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD #2 -->
+					<div class="card">
+						<div class="card-header bg-light" id="heading2">
+							<h5 class="mb-0">
+								<button class="btn" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+									Exposición de Proyectos
+								</button>
+							</h5>
+						</div>
+						<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#acordeon">
+							<div class="card-body">
+								<div class="row">
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Sistemas Distribuidos</h4>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1110</p> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Ciencias Básica</h4>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Lab. de Física y Planta baja, Edificio de laboratorios y Salón 1012</p>   
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-book fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Proyectos Estratégicos y Toma de Decisiones</h4> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Barra de café</p> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-building fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Sistemas Digitales</h4>   
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1112</p> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-microchip fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Trabajos Terminales</h4>   
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1109</p> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Ingeniería de Software</h4>
+                                        <br>   
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1113</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-code fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Fundamentos de Sistemas Electrónicos</h4>   
+                                        <br>   
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Laboratoros de Electrónica E1 y E2</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-microchip fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Ciencias e Ingeniería de la Computación</h4>   
+                                        <br>   
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1111</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-flask fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Academia de Ciencias Sociales</h4>   
+                                        <br>   
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Cabecera, Primer piso, Edificio de laboratorios</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-users fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-3">
+                                        <h4 class="text-center text-primary">Posgrado</h4>
+                                        <br>   
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1013</p> 
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-briefcase fa-4x" aria-hidden="true"></i></p>  
+                                    </div>
+                                </div>
+							</div>
+						</div>
+                    </div>
+
+                    <!-- CARD #3-->
+                    <div class="card">
+						<div class="card-header bg-light" id="heading3">
+							<h5 class="mb-0">
+								<button class="btn" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+									Conferencia y Talleres
+								</button>
+							</h5>
+						</div>
+						<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#acordeon">
+							<div class="card-body">
+								<div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Retos y Oportunidades de la Industria 4.0</h4>
+                                        <br>
+                                        <p class="text-center">Mestro Guzmán Hernández</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 11:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1011</p>
+                                        <br>
+                                        <p class="text-justify">Estamos ante la llamada cuarta transformación industrial, y es posible identificar a sectores cómo el automotriz, aeroespacial, industrial y el electrónico como líderes hoy en día en la adopción de esta nueva industria 4.0; ¿pero qué significa realmente? y ¿qué impacto tendrá en el ejercicio profesional de los futuros profesionistas?
+                                            Para entender el panorama que se avecina en la presente plática expondremos los principales retos y oportunidades asociados a la misma, desde la organización industrial, pasando por la simulación de procesos, implantación de LEAN Manufacturing, IoT, hasta llegar a los Modelos de Gestión Integral.</p> 
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Taller: Programación en gcc</h4>
+                                        <br>
+                                        <p class="text-center">M. en C. José David Ortega Pacheco</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 13:00 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> laboratorio 2106</p>
+                                        <br>
+                                        <p class="text-justify">Tiene como objetivo proporcionar los elementos básicos de programación mediante el lenguaje C en entornos GNU/LINUX, utilizando los editores disponibles en consola y el compilador gcc.</p>   
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Proyecto del Laboratorio de Vida Artificial y Robótica en la ESCOM</h4> 
+                                        <br>
+                                        <p class="text-center">Dr. Genaro Juárez Martínez</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 11:30 a 12:10 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1011</p>
+                                        <br>
+                                        <p class="text-justify">El Laboratorio de Vida Artificial y Robótica (ALIROB, Artificial Life Robotics Lab) es un proyecto de investigación de carácter internacional, concebido y creado en la Escuela Superior de Cómputo y compartido con la Unidad Profesional Interdisciplinaria de Ingeniería Campus Hidalgo, ambos del Instituto Politécnico Nacional. Actualmente, el laboratorio cuenta con el respaldo de otros centros y laboratorios alrededor del mundo. En la plática se tocarán temas del impacto del laboratorio a nivel nacional e internacional, los temas de investigación así como las oportunidades de desarrollo en el mismo.</p> 
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Algoritmos Evolutivos y Técnicas de Optimización Bioinspiradas</h4>   
+                                        <br>
+                                        <p class="text-center">M. en C. Miriam Pescador Rojas</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 12:30 a 13:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1011</p>
+                                        <br>
+                                        <p class="text-justify">En las últimas décadas, investigadores del área de inteligencia computacional han analizado el comportamiento colectivo de las especies y sus procesos evolutivos para la creación de modelos algorítmicos que dan solución a problemas difíciles de optimización matemática.
+                                            En esta plática se presentarán conceptos básicos para el diseño de algoritmos evolutivos tales como: algoritmos genéticos, estrategias evolutivas y programación evolutiva. Y se explicará el funcionamiento de técnicas bioinspiradas como: optimización por colonia de hormigas e inteligencia por enjambre de partículas. Se expondrán algunos problemas NP de optimización combinatoria y la manera en qué las técnicas bioinspiradas obtienen posibles soluciones en un menor costo computacional en comparación con los algoritmos deterministas.</p> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Taller: Conteo, cálculo y computación con números, cifras y partículas</h4>   
+                                        <br>
+                                        <p class="text-center">M. en C. Cristhian Alejandro Ávila Sánchez</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 14:00 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Laboratorio 2106</p>
+                                        <br>
+                                        <p class="text-justify"> Los orígenes de la computación se encuentran en las nociones de número y de cálculo, así como en la representación de información en cifras, y ha ido evolucionando conforme ha ido avanzando nuestra comprensión física de que es una partícula. En este taller expondremos las conexiones existentes, desde cómo encontrar números, identificar partículas en la Naturaleza (¡están en todos lados!) hasta codificarlos en cifras, e ilustrar cómo se pueden aprovechar sus propiedades para construir y programar sistemas de cómputo. Se mostrará como poder llevar esto a cabo en sistemas numéricos (como el Maya), algoritmos, calculadoras mecánicas, circuitos digitales, autómatas celulares hasta los modernos dispositivos que usamos en la actualidad.</p> 
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Técnicas de muestreo compreso y recuperción dispersa en cómputo móvil</h4>
+                                        <br>   
+                                        <p class="text-center">Dr. David Ernesto Troncoso Romero</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 15:00 a 15:45 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1011</p>
+                                        <br>
+                                        <p class="text-justofy">Los sistemas de cómputo móvil deben ser pequeños, ligeros, multifuncionales y energizados con baterías, lo cual impone especificaciones de disipación de potencia, de utilización de hardware y de velocidad de operación cada vez más estrictas. Para resolver los problemas de diseño que surgen debido a estas exigencias, el proyecto de Cátedras CONACYT titulado Técnicas de Muestreo Compreso y Recuperación Dispersa en Cómputo Móvil se enfoca en el desarrollo de métodos novedosos, así como la creación de nuevos algoritmos y arquitecturas eficientes que permitan llevar a cabo las diversas tareas de procesamiento de señales digitales empleando bajo consumo de potencia, baja demanda de recursos de hardware y alta velocidad de operación.</p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+                    </div>
+
+                    <!-- CARD #4-->
+                    <div class="card">
+						<div class="card-header bg-light" id="heading4">
+							<h5 class="mb-0">
+								<button class="btn" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+									Concursos & Exhibiciones
+								</button>
+							</h5>
+						</div>
+						<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#acordeon">
+							<div class="card-body">
+								<div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Cuncurso de Prototipos</h4>
+                                        <br>
+                                        <p class="text-center">La Academia de Fundamentos de Sistemas Electrónicos del Departamento de Ciencias e Ingeniería de la Computación invita</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-cog fa-4x" aria-hidden="true"></i></p> 
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">XI Concurso de Programación "Donald Knuth"</h4>
+                                        <br>
+                                        <p class="text-center">El Cápitulo Estudiantil de ACM "ESCOM-IPN" y la Red Académica de Programación Competitiva del IPN invitan                                        </p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:00 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> laboratorios 1105, 1106, 1107</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-code-fork fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Física Mágica</h4> 
+                                        <br>
+                                        <p class="text-center">La Academia de Ciencias Básicas del Departamento de Formación Básica invita</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 13:30 a 15:00 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1011</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-magic fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Concurso de Matemáticas</h4>   
+                                        <br>
+                                        <p class="text-center">La Academia de Ciencias Básicas del Departamento de Formación Básica invita</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:30 a 12:00 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1209</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-calculator fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Concurso de Minirobótica</h4>   
+                                        <br>
+                                        <p class="text-center">El Club de Minirobótica de la ESCOM y el Departamento de Ingeniería y Ciencias de la Computación invitan</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:00 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Sala Eduardo Torrijos Ocádiz</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-microchip fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="col-md-6 col-12 my-2">
+                                        <h4 class="text-center text-primary">Concurso de Proyectos Finales</h4>
+                                        <br>   
+                                        <p class="text-center">La Academia de Ciencias de la Computación del Departamento de Ciencias e Ingeniería de la Computación invita</p>
+                                        <p class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Hora: 10:00 a 16:30 horas</p>
+                                        <p class="text-center"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Salón 1111</p>
+                                        <br>
+                                        <p class="text-center"><i class="fa fa-codepen fa-4x" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experiencias-->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col py-4">
+                    <h1 class="text-center "><i class="fa fa-comments" aria-hidden="true"></i> Experiencias</h1>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Estrada Hernández Juan Daniel</p>
+                    <p class="text-center">"Es una expo en donde se encuentran muchos proyectos muy interesantes e ingeniosos"</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Ana Lilia</p>
+                    <p class="text-center">"Es muy entretenido ver los proyectos de los alumnos"</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Javier Estrada</p>
+                    <p class="text-center">"Les recomiendo mucho las platicas que dan y los talleres"</p>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Mayra</p>
+                    <p class="text-center">"Me gusto mucho"</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Alejandra</p>
+                    <p class="text-center">"En los talleres se aprende muchas cosas interesantes"</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <div class="icon-user"><i class="fa fa-user-circle fa-4x" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-center"><strong>Nombre: </strong>Eduardo Ramiréz</p>
+                    <p class="text-center">"Hay muchas cosas padres en esta expo""</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Galería-->
+    <section id="galery" class="galery">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col mt-3">
+                    <h1 class="text-center py-4"><i class="fa fa-file-image-o" aria-hidden="true"></i> Galeria</h1>
+                    <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#principal-carousel" data-slid-to="0" class="active"></li>
+                            <li data-target="#principal-carousel" data-slid-to="1"></li>
+                            <li data-target="#principal-carousel" data-slid-to="2"></li>
+                            <li data-target="#principal-carousel" data-slid-to="3"></li>
+                            <li data-target="#principal-carousel" data-slid-to="4"></li>
+                            <li data-target="#principal-carousel" data-slid-to="5"></li>
+                            <li data-target="#principal-carousel" data-slid-to="6"></li>
+                            <li data-target="#principal-carousel" data-slid-to="7"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/galeria1.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria2.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria3.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria4.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria5.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria6.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria7.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/galeria8.jpg" alt="">
+                            </div>
+                        </div>
+                        <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <!--Solo se vera en dispositivos móviles-->
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <!--Solo se vera en dispositivos móviles-->
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ubicación-->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="row my-4">
+                <div class="col text-center my-4">
+                    <h1><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación</h1>
+                </div>
+            </div>
+            
+            <div class="row my-4">
+                <div class="col-md-6 col-12">
+                    <h2>Dirección</h2>
+    
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <strong>Ubicado en:</strong></p>
+                    <p> Unidad Profesional “Adolfo López Mateos” - IPN</p>
+            
+                    <p><i class="fa fa-thumb-tack" aria-hidden="true"></i> <strong>Dirección:</strong></p>
+                    <p>Av. Juan de Dios Bátiz S/N, Nueva Industrial Vallejo, Gustavo A. Madero, 07738 Ciudad de México, CDMX</p>
+    
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> <strong>Teléfono:</strong></p>
+                    <p>55 5729 6000</p>
+                </div>
+
+                <div class="col d-block d-sm-none">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8619978329957!2d-99.14909848529639!3d19.504572243429852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f835393528b5%3A0x5f2dd0563ce99e8!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses!2smx!4v1591079060579!5m2!1ses!2smx" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col d-none d-sm-block d-md-none">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8619978329957!2d-99.14909848529639!3d19.504572243429852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f835393528b5%3A0x5f2dd0563ce99e8!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses!2smx!4v1591079060579!5m2!1ses!2smx" width="530" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="col-6 d-none d-md-block d-lg-none">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8619978329957!2d-99.14909848529639!3d19.504572243429852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f835393528b5%3A0x5f2dd0563ce99e8!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses!2smx!4v1591079060579!5m2!1ses!2smx" width="350" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-6 d-none d-lg-block d-xl-none">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8619978329957!2d-99.14909848529639!3d19.504572243429852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f835393528b5%3A0x5f2dd0563ce99e8!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses!2smx!4v1591079060579!5m2!1ses!2smx" width="460" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-6 d-none d-xl-block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8619978329957!2d-99.14909848529639!3d19.504572243429852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f835393528b5%3A0x5f2dd0563ce99e8!2sESCOM%20-%20Escuela%20Superior%20de%20C%C3%B3mputo%20-%20IPN!5e0!3m2!1ses!2smx!4v1591079060579!5m2!1ses!2smx" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row py-2 justify-content-center">
+                <div class="col-md-6 col-12">
+                    <br>
+                    <br>
+                    <p class="text-center"><span class="text-white"><i class="fa fa-copyright icon-copyright" aria-hidden="true"></i>  Expo ESCOM</span></p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-center"><span class="text-white">También nos puede seguir en:</span></p>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col-2 ">
+                            <p class="text-center"><a href="https://es-la.facebook.com/escomipnmx/"><i class="fa fa-facebook fa-2x icon-redes" aria-hidden="true"></i></a></p>
+                        </div>
+                        <div class="col-2">
+                            <p class="text-center"><a href="https://twitter.com/escomunidad?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter fa-2x icon-redes" aria-hidden="true"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	    speed: 1000,
+	    
+        });
+    </script>
+</body>
+</html>

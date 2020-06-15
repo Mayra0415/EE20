@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+/*Barra de Navegación*/
+.navbar .active, .navbar a:hover {
+    
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navbar .principal-title-navbar {
+    font-size: 28px;
+}
+
+/*Inicio*/
+.home {
+    background: url(../img/inicio.jpg) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+/*About*/
+#about {
+    padding-top: 3.7rem;
+    padding-bottom: 7.2rem;
+}
+
+#about .text-about {
+    font-size: 18px;
+}
+
+/*Programacion*/
+#programacion {
+    padding-top: 2rem;
+    padding-bottom: 5.7rem;
+}
+
+/*Experiencias*/
+#experience {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+#experience .icon-user {
+    color: #3693ff;
+}
+
+/* Galeria */
+#galery img {
+    max-width: 97.5%;
+}
+
+/*Location*/
+#location {
+    padding-top: 1rem;
+    padding-bottom: 4.2em;
+}
+
+/*Footer*/
+#footer {
+    background: black;
+}
+
+#footer .icon-copyright {
+    color: #fff;
+}
